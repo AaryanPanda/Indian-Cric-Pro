@@ -83,10 +83,17 @@
   }
   
 .popup {
+    height: 440px;
+    width: 800px;
     display: none;
-    position: absolute;
-    z-index: 1000; 
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 22%;
+    left: 22%;
+    z-index: 1; 
     background-color: white;
+    box-shadow: 0 5px 10px 5px black;
 }
 
 .indian{

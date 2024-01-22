@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function togglePopup(id) {
       const popup = document.getElementById(`${id}-popup`);
       if (popup) {
-        const isPopupVisible = popup.style.display === 'block';
+        const isPopupVisible = popup.style.display === 'flex';
         closeAllPopups();
-        popup.style.display = isPopupVisible ? 'none' : 'block';
+        popup.style.display = isPopupVisible ? 'none' : 'flex';
       }
     }
   
